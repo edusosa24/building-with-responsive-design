@@ -7,38 +7,41 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800
-             &family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300
-             &family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900
-             &display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="tnw-icon.ico">
   <title>TNW | The hearth of tech</title>
+  
 </head>
 
 <body>
   <header>
     <nav class="navbar main-navbar">
       <a href=""><img class="small-screen-navbar" src="images/others/more.png" alt=""></a>
-      <a href=""><img src="images/others/tnw.svg" alt=""></a>
-      <ul>
-        <li><a href="">HOME</a></li>
-        <li><a href="">NEWS &#709;</a></li>
-        <li><a href="">EVENTS &#709;</a></li>
-        <li><a href="">PROGRAMS</a></li>
-        <li><a href="">SPACES</a></li>
-        <li><a href="">PARTNER WITH US</a></li>
-      </ul>
-      <a href=""><img src="images/social/envelope.svg" alt=""></a>
+      <div class="full-width"> 
+        <a href=""><img class="home" src="images/others/tnw.svg" alt=""></a>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">NEWS &#709;</a></li>
+          <li><a href="">EVENTS &#709;</a></li>
+          <li><a href="">PROGRAMS</a></li>
+          <li><a href="">SPACES</a></li>
+          <li><a href="">PARTNER WITH US</a></li>
+        </ul>
+        <a href=""><img class="newsletter" src="images/social/envelope.svg" alt=""></a>
+      </div>
     </nav>
     <a href="">
-      <div class="conference-tickets"></div>
+      <div class="conference-tickets">
+        <span>Want to keep the TNW Conference vibe going?? Tickets for TNW2022 are available now >></span>
+      </div>
     </a>
   </header>
   
   <div class="body-wrapper">
     <section class="introduction">
-      <img src="images/others/tnw.svg" alt="">
+      <a href=""><img src="images/others/tnw.svg" alt=""></a>
       <p>The hearth of tech</p>
     </section>
     <section class="main-articles">
@@ -47,36 +50,37 @@
         <article class="art-1">
           <a href=""><div></div></a>
           <p>WHISTLEBLOWER</p>
-          <a href=""><span>Who is Facebook whistleblower Frances Haugen?</span></a>
+          <a href=""><p>Who is Facebook whistleblower Frances Haugen?</p></a>
         </article>
         <article class="art-2">
           <a href=""><div></div></a>
           <p>SHIFT</p>
-          <a href=""><span>Honda wants flying vehicles, avatar robots, and rockets</span></a>
+          <a href=""><p>Honda wants flying vehicles, avatar robots, and rockets</p></a>
         </article>
         <article class="art-3">
           <a href=""><div></div></a>
           <p>PLUGGED</p>
-          <a href=""><span>OnePlus Buds Pro vs. Nothing Ear 1 vs. Google Pixel Buds A</span></a>
+          <a href=""><p>OnePlus Buds Pro vs. Nothing Ear 1 vs. Google Pixel Buds A</p></a>
         </article>
         <article class="art-4">
           <a href=""><div></div></a>
           <p>NEURAL</p>
-          <a href=""><span>Can humor be reduced to an algorithm?</span></a>
+          <a href=""><p>Can humor be reduced to an algorithm?</p></a>
         </article>
         <article class="art-5">
-          <p>Let's keep the party going!
-             <br>TNW Conference 2022</p>
+          <h4>Let's keep the party going!
+             <br>TNW Conference 2022</h4>
           <button>GET TICKETS</button>
       </div>
       <article class="small-screen-art-5">
-        <p>Let's keep the party going!
-          <br>TNW Conference 2022</p>
+        <h4>Let's keep the party going!
+          <br>TNW Conference 2022</h4>
         <button>GET TICKETS</button>
       </article>
     </section>
+
     <section class="popular-today">
-      <h2>Popular articles today</h2>
+      <h2>POPULAR ARTICLES TODAY</h2>
       <div class="popular-articles">
         <a href="">
           <article>
@@ -110,6 +114,7 @@
         </a>
       </div>
     </section>
+
     <section class="latest-stories">
       <h2>Latest stories</h2>
       <div class="stories-wrapper">
@@ -172,6 +177,7 @@
       </div>
       <button>ALL NEWS ></button>
     </section>
+
     <section class="channels">
       <h2>Explore our channels</h2>
       <div class="channel-wrapper">
@@ -213,25 +219,28 @@
         </a>   
       </div>
     </section>
+    
     <section class="newsletter-sub">
-      <h2 style="visibility: hidden;">Subscribe to our newsletter</h2>
-      <p>Get the snarkiest newsletter in tech</p>
+      <h2>Get the snarkiest newsletter in tech</h2>
       <span>Subscribe to our twice-weekly <a href="">Big Spam</a> or check out our <a href="">other newsletters.</a></span>
       <form action="">
-        <img src="" alt="">
-        <input type="email" id="email" placeholder="Email">
-        <input type="submit" value="SUBSCRIBE">
+        <label>
+          <img class="newsletter" src="images/social/envelope.svg" alt="">
+          <input type="email" id="email" placeholder="Email">
+          <input type="submit" id="submit" value="SUBSCRIBE">
+        </label>
       </form>
       <div class="media-container">
-        <a href=""><img src="images/social/facebook.svg" alt=""></a>
-        <a href=""><img src="images/social/instagram.svg" alt=""></a>
-        <a href=""><img src="images/social/twitter.svg" alt=""></a>
-        <a href=""><img src="images/social/youtube.svg" alt=""></a>
-        <a href=""><img src="images/social/flipboard.svg" alt=""></a>
-        <a href=""><img src="images/social/envelope.svg" alt=""></a>
-        <a href=""><img src="images/social/linkedin.svg" alt=""></a>
+        <a href=""><img class="media" src="images/social/facebook.svg" alt=""></a>
+        <a href=""><img class="media" src="images/social/instagram.svg" alt=""></a>
+        <a href=""><img class="media" src="images/social/twitter.svg" alt=""></a>
+        <a href=""><img class="media" src="images/social/youtube.svg" alt=""></a>
+        <a href=""><img class="media" src="images/social/flipboard.svg" alt=""></a>
+        <a href=""><img class="media" src="images/social/envelope.svg" alt=""></a>
+        <a href=""><img class="media" src="images/social/linkedin.svg" alt=""></a>
       </div>
     </section>
+
     <section class="recomended-videos">
       <h2></h2>
       <div class="videos-wrapper">
@@ -386,6 +395,7 @@
         </div>
       </div>
     </section>
+    
     <section class="work-with-us">
       <div class="wwu-wrapper">
         <div class="wwu-text">
@@ -436,13 +446,13 @@
         <img src="images/others/tnw.svg" alt="">
         <p>The heart of tech</p>
         <div class="media-container">
-          <a href=""><img src="images/social/facebook.svg" alt=""></a>
-          <a href=""><img src="images/social/instagram.svg" alt=""></a>
-          <a href=""><img src="images/social/twitter.svg" alt=""></a>
-          <a href=""><img src="images/social/youtube.svg" alt=""></a>
-          <a href=""><img src="images/social/flipboard.svg" alt=""></a>
-          <a href=""><img src="images/social/envelope.svg" alt=""></a>
-          <a href=""><img src="images/social/linkedin.svg" alt=""></a>
+          <a href=""><img class="media" src="images/social/facebook.svg" alt=""></a>
+          <a href=""><img class="media" src="images/social/instagram.svg" alt=""></a>
+          <a href=""><img class="media" src="images/social/twitter.svg" alt=""></a>
+          <a href=""><img class="media" src="images/social/youtube.svg" alt=""></a>
+          <a href=""><img class="media" src="images/social/flipboard.svg" alt=""></a>
+          <a href=""><img class="media" src="images/social/envelope.svg" alt=""></a>
+          <a href=""><img class="media" src="images/social/linkedin.svg" alt=""></a>
         </div>
       </div>
       <div class="more-tnw">
