@@ -1007,8 +1007,8 @@ footer > hr{
 
   .storie-container > article > img{
     display: inline-block;
-    width: 8rem;
-    height: 8rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 50%;
     float: left;
     object-fit: cover;
@@ -1061,7 +1061,7 @@ footer > hr{
   
   .wwu-wrapper{
     flex-direction: column;
-    gap: 4rem;
+    gap: 7rem;
     width: 100%;
     height: fit-content;
   }
