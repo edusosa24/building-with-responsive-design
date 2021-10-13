@@ -471,6 +471,10 @@ header{
   font-size: 3rem;
 }
 
+.newsletter-sub > span{
+  text-align: center;
+}
+
 .newsletter-sub > span > a{
   color: #00CCCC;
 }
@@ -1061,7 +1065,7 @@ footer > hr{
   
   .wwu-wrapper{
     flex-direction: column;
-    gap: 7rem;
+    gap: 8rem;
     width: 100%;
     height: fit-content;
   }
